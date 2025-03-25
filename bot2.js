@@ -1,6 +1,8 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 
+const TOKEN = "MTM1MzQzNTkwOTk3NDAwMzc2NA.Gritf0.VmyL5zGJuExrRC3qjmjtk8RlxllIZpZ4Hhvl0g"
+
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -52,4 +54,4 @@ Please introduce yourself, explore the channels, and engage with others. Looking
     }
 });
 
-client.login(process.env.TOKEN);
+client.login(TOKEN);
