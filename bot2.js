@@ -54,4 +54,4 @@ Please introduce yourself, explore the channels, and engage with others. Looking
     }
 });
 
-client.login(process.env.DISCORD_BOT_TOKEN);
+client.login(DISCORD_BOT_TOKEN);
